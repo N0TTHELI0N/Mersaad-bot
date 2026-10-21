@@ -15,16 +15,16 @@ CATEGORY_ORDER = [c for c in commands_manifest.CATEGORY_ORDER
                   if any(cmd[1] == c for cmd in commands_manifest.COMMANDS)]
 
 CATEGORY_LABELS = {
-    "general": {"ar": "عامة", "en": "General"},
-    "server": {"ar": "السيرفر", "en": "Server"},
+    "general": {"ar": "العامة", "en": "General"},
+    "server": {"ar": "الخادم", "en": "Server"},
     "moderation": {"ar": "الإشراف", "en": "Moderation"},
     "shop": {"ar": "المتجر", "en": "Shop"},
     "custom": {"ar": "الأوامر المخصصة", "en": "Custom Commands"},
-    "whitelist": {"ar": "الوايت ليست", "en": "Whitelist"},
+    "whitelist": {"ar": "المقاعد المحجوزة", "en": "Whitelist"},
     "playerlog": {"ar": "سجل اللاعبين", "en": "Player Log"},
     "leaderboard": {"ar": "لوحة المتصدرين", "en": "Leaderboard"},
-    "automod": {"ar": "الأتمود", "en": "Auto-Mod"},
-    "chat": {"ar": "شات اللعبة", "en": "In-Game Chat"},
+    "automod": {"ar": "الحماية التلقائية", "en": "Auto-Mod"},
+    "chat": {"ar": "محادثة اللعبة", "en": "In-Game Chat"},
     "admin": {"ar": "الإدارة", "en": "Admin"},
     "other": {"ar": "أخرى", "en": "Other"},
 }
