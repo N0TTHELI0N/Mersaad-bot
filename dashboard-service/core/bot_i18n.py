@@ -7,7 +7,7 @@ import guild_settings
 
 STRINGS = {
     "admin_only": {
-        "ar": "للإدمن فقط.",
+        "ar": "للمشرفين فقط.",,
         "en": "Admin only.",
     },
     "user_banned_from_bot": {
@@ -35,7 +35,7 @@ STRINGS = {
         "en": "An error occurred. Please try again.",
     },
     "rcon_failed": {
-        "ar": "تعذر الاتصال بسيرفر الآرك. تواصل مع الإدمن.",
+        "ar": "تعذر الاتصال بخادم اللعبة. تواصل مع الإدارة.",,
         "en": "Could not connect to the ARK server. Contact an admin.",
     },
     "nitrado_not_configured": {
@@ -43,7 +43,7 @@ STRINGS = {
         "en": "Nitrado is not configured. Use `/set-nitrado-token`.",
     },
     "find_server_no_services": {
-        "ar": "ما لقيت أي خدمات Nitrado تحت هذا التوكن. تأكد إنك وضعت التوكن صح.",
+        "ar": "لم يتم العثور على أي خدمات Nitrado مرتبطة بهذا الرمز. تأكد من صحة رمز الـ API.",,
         "en": "Found no Nitrado services under this token. Make sure the token is correct.",
     },
     "find_server_applied": {
@@ -83,11 +83,11 @@ STRINGS = {
         "en": "Your current balance: **{points}** points.",
     },
     "shop_empty": {
-        "ar": "لا توجد داينوات متاحة في المتجر بعد.",
+        "ar": "لا توجد ديناصورات متاحة في المتجر بعد.",,
         "en": "No dinosaurs available in the shop yet.",
     },
     "dino_not_available": {
-        "ar": "هذا الداينو غير متاح بالمتجر.",
+        "ar": "هذا الديناصور غير متاح في المتجر.",,
         "en": "This dinosaur is not available in the shop.",
     },
     "level_not_allowed": {
@@ -95,7 +95,7 @@ STRINGS = {
         "en": "Level must be between **{min_level}** and **{max_level}**.",
     },
     "insufficient_points": {
-        "ar": "تحتاج **{price}** نقطة بس عندك **{current}** بس.",
+        "ar": "رصيدك غير كافٍ؛ تحتاج إلى **{price}** نقطة بينما رصيدك الحالي **{current}** نقطة.",,
         "en": "You need **{price}** points but you only have **{current}**.",
     },
     "purchase_queued": {
@@ -175,7 +175,7 @@ STRINGS = {
         "en": "**{player}** player log - all their (non-admin) actions appear here.",
     },
     "tribe_forum_no_tribes": {
-        "ar": "لا يوجد لاعبون بعد. يُكتشف اللاعبون تلقائيًا من لوق السيرفر، أو أضفهم يدويًا عبر /add-player.",
+        "ar": "لا يوجد لاعبون بعد. يُكتشف اللاعبون تلقائيًا من سجلات الخادم، أو أضفهم يدويًا عبر أمر /add-player.",,
         "en": "No players yet. Players are auto-discovered from the server log, or add them manually via /add-player.",
     },
     "points_added": {
@@ -323,7 +323,7 @@ STRINGS = {
         "en": "{member} now has **`{count}x`** token(s) for reserved slots.",
     },
     "wl_token_balance": {
-        "ar": "💰 رصيدك: **{tokens}** توكين(ات)",
+        "ar": "💰 رصيدك: **{tokens}** تذكرة",,
         "en": "💰 Your balance: **{tokens}** token(s)",
     },
     "wl_redeemed_list": {
@@ -335,7 +335,7 @@ STRINGS = {
         "en": "No redeemed PSNs yet.",
     },
     "wl_token_insufficient": {
-        "ar": "❌ رصيد توكينات غير كافٍ.",
+        "ar": "❌ رصيد التذاكر غير كافٍ.",,
         "en": "❌ Insufficient token balance.",
     },
     "wl_redeem_ok": {
@@ -351,7 +351,7 @@ STRINGS = {
         "en": "🔄 Re-applied reserved slots for **{count}** gamertag(s).",
     },
     "wl_token_count_added": {
-        "ar": "تم إضافة **{count}** توكين(ات) إلى {member}.",
+        "ar": "تمت إضافة **{count}** تذكرة إلى {member}.",,
         "en": "Added **{count}** token(s) to {member}.",
     },
     "wl_no_nitrado": {
